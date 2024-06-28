@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.topHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3367d6;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+}
+.images {
+  width: 150px;
+  padding: 20px;
+}
+.searchHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #2850a7;
+  border-color: #6697ff;
+  height: 35px;
+  padding: 20px;
+  border-style: solid;
+  width: 670px;
+}
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+.inputElement {
+  width: 600px;
+  height: 35px;
+  outline: none;
+  background-color: transparent;
+  border-left-color: #6697ff;
+}
+.contentHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.innerHolder {
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ececec;
+  padding: 10px;
+}
+.itemsHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.time {
+  color: #64748b;
+  font-weight: bold;
+  min-width: 60%;
+}
+.iconHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.logoElement {
+  width: 20px;
+  height: 20px;
+}
+.logoContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name {
+  color: #475569;
+  font-weight: bold;
+}
+.website {
+  color: #64748b;
+}
+.deleteButton {
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+}
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+}
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+.emptyElement {
+  color: #64748b;
+}
+@media screen and (max-width: 576px) {
+  .time {
+    margin-right: 60%;
+  }
+}
